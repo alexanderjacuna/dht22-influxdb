@@ -18,8 +18,8 @@ sensor = Adafruit_DHT.DHT22
 sensor_gpio = 17
 
 # SET MEASUREMENT VARUABLES
-measurement1 = "venus-dht22-temperature"
-measurement2 = "venus-dht22-humidity"
+measurement1 = "dht22-temperature"
+measurement2 = "dht22-humidity"
 
 # GET VARUABLES
 humidity, temperature = Adafruit_DHT.read_retry(sensor, sensor_gpio)
